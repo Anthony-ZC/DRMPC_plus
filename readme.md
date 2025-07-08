@@ -1,5 +1,5 @@
 # Disturbance Rejection MPC for Tracking of Wheeled Mobile Robot (Refined Version)
-It is a MATLAB/Simulink implementation for [**Columbia EE6907_001 TPCS-ELEC & COMPUT ENGINEERING: Model Predictive Control (Spring 2025)**](https://www.columbia.edu/~ja3451/courses/e6602.html) final project done by ***Zewen (Anthony) Chen*** and ***Xinhe "Carl" Yang***. A technical presentation slide is also inclued in this repository. Some result figures are inclued in [Result Floder](./Result/)
+It is a MATLAB/Simulink implementation for [**Columbia EE6907_001 TPCS-ELEC & COMPUT ENGINEERING: Model Predictive Control (Spring 2025)**](https://www.columbia.edu/~ja3451/courses/e6602.html) final project done by ***Zewen (Anthony) Chen*** and ***Xinhe "Carl" Yang***. A technical presentation slide is also inclued in this repository. Some result figures are inclued in [Result Floder](./Result/).
 
 **$${\color{red}This\enspace project\enspace got\enspace full\enspace credit\enspace in\enspace the\enspace course.}$$**
 
