@@ -6,7 +6,7 @@ It is a MATLAB/Simulink implementation for [**Columbia EE6907_001 TPCS-ELEC & CO
 ## Project Overview
 This project is a refined reproduction using MATLAB/Simulink for the paper:
 > **"Disturbance Rejection MPC for Tracking of Wheeled Mobile Robot"**  
-> by Sun Z, Xia Y, Dai L, et al., IEEE/ASME Transactions On Mechatronics 2017
+> by Sun Z, Xia Y, Dai L, et al., IEEE/ASME Transactions On Mechatronics 2017  
 > 📄 [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8054727)
 
 
