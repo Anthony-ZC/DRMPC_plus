@@ -84,3 +84,6 @@ params.N = params.T_horizon/params.dt;
 params.N_sim = params.T_sim/params.dt;
 ```
 where params.dt refers to sampling time for DRMPC, params.T_horizon refers to the time of horizon, and params.T_sim refers to the total simulation time.
+
+## Live Demo
+ ![Demo](./Result/two_trajectories.gif)
