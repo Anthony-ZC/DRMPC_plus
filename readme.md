@@ -1,4 +1,4 @@
-# Disturbance Rejection MPC for Tracking of Wheeled Mobile Robot (Refined Version)
+# Refined Disturbance Rejection MPC for Tracking of Wheeled Mobile Robot (DRMPC_Plus)
 It is a MATLAB/Simulink implementation for **Columbia EE6907_001 TPCS-ELEC & COMPUT ENGINEERING: Model Predictive Control (Spring 2025)** final project done by ***Zewen (Anthony) Chen*** and ***Xinhe "Carl" Yang***. A technical presentation slide is also inclued in this repository. Some result figures are inclued in [Result Floder](./Result/).
 
 **$${\color{red}This\enspace project\enspace got\enspace full\enspace credit\enspace in\enspace the\enspace course.}$$**
@@ -36,7 +36,7 @@ In the original paper uses a 80-step horizon, whose solving time is much higher 
 
 #### Asynchronous Control Simulation
 
-This is a one-step further extension, in which we let the simulating time in Simulink much smaller than the sampling time for DRMPC, whichs simulates a closer continuous environment.
+This is a one-step further extension, in which we let the simulating time in Simulink (0.01s) much smaller than the sampling time for DRMPC (0.05s), whichs simulates a closer continuous environment.
 
 ## How to use
 
@@ -62,7 +62,7 @@ If you want to switch the type of DOB, change
 ```
 params.dob_type = 1;
 ```
-in to 0 (no DOB), 1 (DOB type 1), or 2(DOB type 2).
+in to 0 (no DOB), 1 (type 1 DOB), or 2(type 2 DOB).
 If you want to change the parameters for DOB type 1, change the L1 gain:
 ```
 params.L1 = 15;
@@ -86,5 +86,5 @@ params.N_sim = params.T_sim/params.dt;
 ```
 where params.dt refers to sampling time for DRMPC, params.T_horizon refers to the time of horizon, and params.T_sim refers to the total simulation time.
 
-## Live Demo
+## Live Viedo (Shortened Horizon, Asynchronous Control in Simulink with DRMPC using type 2 DOB, under Harmonic Disturbance)
 [![Demo](./Result/two_trajectories.gif)](https://www.youtube.com/watch?v=J0xT-bx96UE)
